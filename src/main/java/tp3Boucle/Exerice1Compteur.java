@@ -15,7 +15,13 @@ public class Exerice1Compteur {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        //But de l'exercice : réaliser un compteur afin d'afficher tout les nombres pairs
+        //compris entre 0 et 20
+        for (int i = 0;i < 21;i++){
+            if(i%2 == 0){
+                System.out.println(i);
+            }
+        }
     }
     
 }

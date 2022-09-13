@@ -4,20 +4,19 @@
  * and open the template in the editor.
  */
 package tp3Boucle;
+import java.util.Scanner;
 
 /**
  *
  * @author pasca
  */
-public class Exercice2Compteur {
+public class Exercice3BouclesImbriqués {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        for (int i = 10; i>=0 ; i--){
-            System.out.print(i+ " ,");
-        }
+        
     }
     
 }

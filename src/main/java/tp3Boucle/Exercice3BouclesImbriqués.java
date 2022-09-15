@@ -17,6 +17,16 @@ public class Exercice3BouclesImbriqués {
      */
     public static void main(String[] args) {
         
+        System.out.println("Saisir un nombre :");
+        
+        int i;
+        int j;
+        
+        for(i=1;i<=5;i++){
+            for(j=0;j<i;j++){
+                System.out.printf("*");
+            }
+        }
     }
     
 }

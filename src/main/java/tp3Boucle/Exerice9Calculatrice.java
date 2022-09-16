@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Exerice9Calculatrice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Saisissez une opération (+,-,/,*) :");
-        char operation = sc.next().charAt(0);
         boolean quitter = false;
         float resultat = 0;
 
         while(!false){
+            System.out.print("Saisissez une opération (+,-,/,*) :");
+            char operation = sc.next().charAt(0);
             if (operation == '+' || operation == '-' || operation == '/' || operation == '*'){
                 System.out.print("Saisir nombre 1 :");
                 float nbr1 = sc.nextInt();
@@ -20,10 +20,13 @@ public class Exerice9Calculatrice {
                 switch (operation){
                     case '+':
                         resultat = nbr1 + nbr2;
+                        break;
                     case '-':
                         resultat = nbr1 - nbr2;
+                        break;
                     case '/':
                         resultat = nbr1 / nbr2;
+                        break;
                     case '*':
                         resultat = nbr1 * nbr2;
                 }

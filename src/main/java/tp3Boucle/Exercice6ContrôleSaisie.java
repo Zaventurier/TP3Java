@@ -22,6 +22,7 @@ public class Exercice6ContrôleSaisie {
             System.out.println("Voulez vous continuer ? (o/n)");
             reponse = sc.next().charAt(0);
         }
+        System.out.println("suite...");
     }
     
 }

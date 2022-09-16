@@ -9,7 +9,7 @@ public class Exercice10CalculatriceAmeliore {
         float resultat = 0;
 
         while (!false) {
-            System.out.print("Saisissez une opération (+,-,/,*) :");
+            System.out.print("Saisissez une opération (+,-,/,*,^) :");
             char operation = sc.next().charAt(0);
             if (operation == '+' || operation == '-' || operation == '/' || operation == '*') {
                 System.out.print("Saisir nombre 1 :");
@@ -31,7 +31,13 @@ public class Exercice10CalculatriceAmeliore {
                         }else{
                             resultat = nbr1 / nbr2;
                             break;
+
                         }
+                    case'^':
+                        //Cas de la puissance
+                        for(int i = 0; i<=nbr2;i++){
+                        }
+                        break;
 
                     case '*':
                         resultat = nbr1 * nbr2;
